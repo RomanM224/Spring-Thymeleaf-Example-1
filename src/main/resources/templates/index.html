@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+      
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link th:href="@{/css/main.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="buttons-index">
+	<a class="link-button" th:href="@{~/users/addUser}"> Add User</a>
+	<a class="link-button" th:href="@{~/users/getUserById}"> Show User</a>
+	<a class="link-button" th:href="@{~/syntax/example}"> Update User</a>
+	<a class="link-button" th:href="@{~/syntax/example}"> Delete User</a>
+	</div>
+
+</body>
+</html>

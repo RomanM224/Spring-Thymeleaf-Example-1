@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link th:href="@{/css/main.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<form th:action="@{/getUserById}" th:method="post">
+		<div class="form-save-input">
+			<label for="id">Input id:</label> <input id="id" type="number" name="id" />
+		</div>
+		<input class="form-button" type="submit" value="show" />
+	</form>
+
+        
+        <!--<p th:text="${employee.getFullName()}">Nothing</p>-->
+        <!--<p th:text="${employee['firstName']}">Nothing</p>-->
+</body>
+</html>

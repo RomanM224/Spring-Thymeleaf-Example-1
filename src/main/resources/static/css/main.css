@@ -1,0 +1,38 @@
+body{
+	background: #e6e6e6;
+}
+.link-button{
+	background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         width:150px;
+         text-align: center;
+         text-decoration: none;
+         display: block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+}
+.buttons-index{
+	margin-left:100px;
+	margin-top:100px;
+}
+.form-save{
+	margin-left: 50px;
+	margin-top:50px;
+	width: 200px;
+}
+.form-button{
+	background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 10px 15px;
+         width:150px;
+         text-align: center;
+         text-decoration: none;
+         display: block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+}
